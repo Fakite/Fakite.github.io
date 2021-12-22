@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>TP 12 Cabrera Franco</title>
+    <meta name="description"
+    content="En el apartado Producto brindamos todo nuestro stock de Celulares con sus determinadas características y precios" />
+<meta name="keywords" content="Celulares, Ofertas, Iphone, Samsung, Motorola, Reparación" />
+<meta name="author" content="Nicolás Cabrera Franco" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light header__background">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="../assets/logo.png" alt="Imagen Logo" class="header__logo--tamaño header__logo--transition">
+                    <h1 class="header__titulo">Celulares Cabrera Franco</h1>
+                </a>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-4">
+                            <a class="nav-link header__botonera--texto text-white" aria-current="page"
+                                href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link header__botonera--texto text-white" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown mx-4">
+                            <a class="nav-link dropdown-toggle active header__botonera--texto text-white" href="#"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Productos</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="header__botonera--texto text-white"
+                                        href="./productos.html">Iphone</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="header__botonera--texto text-white"
+                                        href="./productos.html">Samsung</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="header__botonera--texto text-white"
+                                        href="./productos.html">Motorola</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link header__botonera--texto text-white" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link header__botonera--texto text-white"
+                                href="./presentaciones.html">Presentaciones</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Inserte Búsqueda"
+                            aria-label="Search">
+                        <a href="./error.html" class="btn btn-outline-primary" type="submit">Buscar</a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="tabla__bordes mx-auto">
+        <table border="5px" cellpadding="10px" cellspacing="5px">
+            <thead class="tabla__bordes--titulo">
+                <tr>
+                    <th>Modelo</th>
+                    <th>Capacidad</th>
+                    <th>Precio</th>
+                    <th>Dimensiones</th>
+                </tr>
+            </thead>
+            <tbody class="tabla__bordes--contenido">
+                <tr>
+                    <td class="tabla__contenido--uppercase">Iphone X</td>
+                    <td>64 gb</td>
+                    <td>U$D 800</td>
+                    <td>14,3x7,9x cm</td>
+                </tr>
+                <tr>
+                    <td class="tabla__contenido--uppercase">Iphone 11</td>
+                    <td>128 gb</td>
+                    <td>U$D 1.000</td>
+                    <td>10x10x cm</td>
+                </tr>
+                <tr>
+                    <td class="tabla__contenido--uppercase">Iphone 12</td>
+                    <td>64 gb</td>
+                    <td>U$D 1.200</td>
+                    <td>20x15x cm</td>
+                </tr>
+                <tr>
+                    <td class="tabla__contenido--uppercase">Iphone 13</td>
+                    <td>256 gb</td>
+                    <td>U$D 1.400</td>
+                    <td>15x6,42x0,76 cm</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <div class="accordion faq" id="accordionExample">
+        <div class="accordion-item faq__element">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button color-active" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    ¿Qué celular me compro?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    En <strong>Celulares Cabrera Franco</strong> vas a encontrar una amplia variedad de ofertas de
+                    celulares tanto liberados como con planes. Antes de elegir qué celular comprar te recomendamos que
+                    te preguntes: ¿qué marca es de tu preferencia?, ¿qué resolución de cámara de celular necesitás?,
+                    ¿qué tamaño de pantalla se ajusta mejor a vos? Si ya tenés esas respuestas, encontrá el celular
+                    ideal para vos en <strong>Celulares Cabrera Franco.</strong>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item faq__element">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed color-active" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    ¿Qué tipo de financiación tenemos?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Comprá tu celular en cuotas y recibilo en tu domicilio. Con el simulador de cuotas, vas a poder
+                    estimar el valor de cada cuota antes de realizar tu compra. Descubrí qué tarjetas están adheridas y
+                    disfrutá de ofertas exclusivas en celulares.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item faq__element">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed color-active" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    ¿Cómo accedo al descuento en la compra de un celular?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Es importante que sepas que el 10% de descuento lo podés utilizar en la Tienda y que se suma a los
+                    otros descuentos vigentes. El beneficio lo verás impactado al momento de realizar el pago, una vez
+                    que hayas completado todos los datos solicitados.
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__redes--texto">
+            <h4><strong class="fw-bold">Dirección:</strong> Av. Corrientes 838 CABA</h4>
+            <h4><strong class="fw-bold">Teléfono:</strong> 0800-0400-1111</h4>
+            <h4><Strong class="fw-bold">Horarios de atención:</Strong> de 9:00hs a 18:00hs</h4>
+        </div>
+        <div class="footer__redes">
+            <a href="http://facebook.com" target="_blank">
+                <img src="../assets/img/facebook_icono.png" height="60px" alt="imagen de facebook"
+                    class="transitionLogo"></a>
+            <a href="http://twitter.com" target="_blank">
+                <img src="../assets/img/twitter_icono.png" height="60px" alt="imagen de twitter"
+                    class="transitionLogo"></a>
+            <a href="http://instagram.com" target="_blank">
+                <img src="../assets/img/instagram_icono.png" height="60px" alt="imagen de instagram"
+                    class="transitionLogo"></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

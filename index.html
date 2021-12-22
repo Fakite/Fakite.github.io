@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>TP Cabrera Franco</title>
+    <meta name="description"
+    content="Este es mi sitio web de venta de celulares en el que encontrarás los últimos modelos de Iphone del mercado" />
+<meta name="keywords" content="Celulares, Ofertas, Iphone, Samsung, Motorola, Reparación" />
+<meta name="author" content="Nicolás Cabrera Franco" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light header__background">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="../assets/logo.png" alt="Imagen Logo" class="header__logo--tamaño header__logo--transition">
+                    <h1 class="header__titulo">Celulares Cabrera Franco</h1>
+                </a>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-4">
+                            <a class="nav-link header__botonera--texto text-white" aria-current="page"
+                                href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link header__botonera--texto text-white" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown mx-4">
+                            <a class="nav-link dropdown-toggle active header__botonera--texto text-white" href="#"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Productos</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="header__botonera--texto text-white"
+                                        href="./productos.html">Iphone</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="header__botonera--texto text-white"
+                                        href="./productos.html">Samsung</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="header__botonera--texto text-white"
+                                        href="./productos.html">Motorola</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link header__botonera--texto text-white" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link header__botonera--texto text-white"
+                                href="./presentaciones.html">Presentaciones</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Inserte Búsqueda"
+                            aria-label="Search">
+                        <a href="./error.html" class="btn btn-outline-primary" type="submit">Buscar</a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="../assets/img/slider1.PNG" class="d-block w-100" alt="slider1">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="../assets/img/slider2.PNG" class="d-block w-100" alt="slider2">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/img/slider3.PNG" class="d-block w-100" alt="slider3">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+    <video src="../assets/video/video.mp4" autoplay controls muted width="100%"></video>
+    <main>
+        <div class="cards">
+            <div class="cards__caja">
+                <div class="cards__caja--titulo">
+                    <h2>Iphone 11</h2>
+                    <img src="../assets/img/iphone_11.png" alt="imagen Iphone 11" class="cards__caja--tamaño">
+                    <p class="cards__caja--texto">La autonomía es otra de las grandes apuestas del iPhone 11, pues la
+                        batería de litio integrada
+                        cuenta
+                        con una capacidad de 3.110 mAh que, en la práctica, promete alcanzar las 17 horas de
+                        reproducción de
+                        vídeo, es decir, una hora más de duración con respecto al iPhone XR.</p>
+                </div>
+            </div>
+            <div class="cards__caja">
+                <div class="cards__caja--titulo">
+                    <h2>Iphone 12</h2>
+                    <img src="../assets/img/iphone_12.png" alt="Imagen Iphone 12" class="cards__caja--tamaño">
+                    <p class="cards__caja--texto">El iPhone 12 ofrece funcionalidades de fotografía computacional
+                        avanzadas gracias al chip A14
+                        Bionic
+                        y al nuevo sistema de dos cámaras, que permiten una experiencia de cámara incomparable para que
+                        sea
+                        más fácil que nunca capturar la mejor foto o el video perfecto.</p>
+                </div>
+            </div>
+            <div class="cards__caja">
+                <div class="cards__caja--titulo">
+                    <h2>Iphone 13</h2>
+                    <img src="../assets/img/iphone_13.png" alt="Imagen Iphone 13" class="cards__caja--tamaño">
+                    <p class="cards__caja--texto" style="height: 20%;">Las cámaras de los nuevos iPhone 13 dan un
+                        importante paso adelante tanto en
+                        las especificaciones
+                        del
+                        hardware como con lo que el software nos permite hacer con ellas. Combinado con una abertura
+                        mayor
+                        de ƒ/1,5, el gran angular del iPhone 13 Pro y el iPhone 13 Pro Max.</p>
+                </div>
+            </div>
+            <div class="cards__caja">
+                <div class="cards__caja--titulo">
+                    <h2 style="height: 10%">Iphone X</h2>
+                    <img src="../assets/img/iphone_x.png" alt="Imagen Iphone X" style="width: 100%;">
+                    <p class="cards__caja--texto" style="height: 20%;">Tiene cinco diferentes opciones de grabación, una
+                        de ellas es el timelapse
+                        programable (en tiempo
+                        y
+                        movimiento) y hasta se mantiene de pie solo. Aunque la fotografía es uno de los puntos fuertes
+                        del
+                        iPhone X, es posible llevar la imagen a un escalón superior con los lentes Lemuro.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__redes--texto">
+            <h4><strong class="fw-bold">Dirección:</strong> Av. Corrientes 838 CABA</h4>
+            <h4><strong class="fw-bold">Teléfono:</strong> 0800-0400-1111</h4>
+            <h4><strong class="fw-bold">Horarios de atención:</strong> de 9:00hs a 18:00hs</h4>
+        </div>
+        <div>
+            <a href="http://facebook.com" target="_blank">
+                <img src="../assets/img/facebook_icono.png" height="60px" alt="imagen de facebook"></a>
+            <a href="http://twitter.com" target="_blank">
+                <img src="../assets/img/twitter_icono.png" height="60px" alt="imagen de twitter"></a>
+            <a href="http://instagram.com" target="_blank">
+                <img src="../assets/img/instagram_icono.png" height="60px" alt="imagen de instagram"></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Contacto</title>
+    <meta name="description"
+    content="En el apartado de Contacto podés contactarte con nosotros y también se encuentra el mapa de nuestra sucursal" />
+<meta name="keywords" content="Celulares, Ofertas, Iphone, Samsung, Motorola, Reparación" />
+<meta name="author" content="Nicolás Cabrera Franco" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light header__background">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="../assets/logo.png" class="header__logo--tamaño header__logo--transition">
+                    <h1 class="header__titulo">Celulares Cabrera Franco</h1>
+                </a>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-4">
+                            <a class="nav-link header__botonera--texto text-white" aria-current="page"
+                                href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link header__botonera--texto text-white" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown mx-4">
+                            <a class="nav-link dropdown-toggle active header__botonera--texto text-white" href="#"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Productos</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="header__botonera--texto text-white"
+                                        href="./productos.html">Iphone</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="header__botonera--texto text-white"
+                                        href="./productos.html">Samsung</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="header__botonera--texto text-white"
+                                        href="./productos.html">Motorola</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link header__botonera--texto text-white" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item mx-4">
+                            <a class="nav-link header__botonera--texto text-white"
+                                href="./presentaciones.html">Presentaciones</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Inserte Búsqueda"
+                            aria-label="Search">
+                        <a href="./error.html" class="btn btn-outline-primary" type="submit">Buscar</a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="py-2">
+        <div class="container-fluid">
+            <div class="row">
+                <article class="col-lg-6">
+                    <h3 class="text-center text-dark">ESCRÍBENOS</h3>
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-4 position-relative">
+                            <label for="validationTooltip01" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="validationTooltip01" placeholder="Nombre/s"
+                                required>
+                            <div class="valid-tooltip">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-4 position-relative">
+                            <label for="validationTooltip02" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="validationTooltip02" placeholder="Apellido/s"
+                                required>
+                            <div class="valid-tooltip">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-4 position-relative">
+                            <label for="validationTooltipUsername" class="form-label">Mail</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                                <input type="text" class="form-control" id="validationTooltipUsername"
+                                    aria-describedby="validationTooltipUsernamePrepend" required
+                                    placeholder="email@gmail.com">
+                                <div class="invalid-tooltip">
+                                    Please choose a unique and valid username.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 position-relative">
+                            <label for="validationTooltip03" class="form-label">Ciudad</label>
+                            <input type="text" class="form-control" id="validationTooltip03" required
+                                placeholder="Buenos Aires">
+                            <div class="invalid-tooltip">
+                                Please provide a valid city.
+                            </div>
+                        </div>
+                        <div class="col-md-3 position-relative">
+                            <label for="validationTooltip05" class="form-label">Código Postal</label>
+                            <input type="text" class="form-control" id="validationTooltip05" required
+                                placeholder="1675">
+                            <div class="invalid-tooltip">
+                                Please provide a valid zip.
+                            </div>
+                        </div>
+                        <div class="col-md-3 position-relative">
+                            <label for="validationTooltip04" class="form-label">¿Cómo nos conociste?</label>
+                            <select class="form-select" id="validationTooltip04" required>
+                                <option value="amigos">Amigos</option>
+                                <option value="publicidad">Publicidad</option>
+                                <option value="redes sociales">Redes sociales</option>
+                                <option value="otros">Otros</option>
+                            </select>
+                            <div class="invalid-tooltip">
+                                Please select a valid state.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div>
+                            <label for="notificaciones">Acepto recibir notificaciones diarias vía mail</label>
+                            <input type="checkbox" id="notificaciones" name="notificaciones">
+                        </div>
+                        <div class="col-12">
+                            <a href="./error.html" class="btn btn-primary">Enviar Formulario</a>
+                        </div>
+                    </form>
+
+                </article>
+                <article class="col-lg-6">
+                    <h3 class="text-center text-dark">NUESTRA SUCURSAL</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1642.666018641253!2d-58.492745198866466!3d-34.57046410168161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7ba91c0d749%3A0xfa5b6e8e19424cf8!2sKentucky!5e0!3m2!1ses-419!2sar!4v1636567715047!5m2!1ses-419!2sar"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </article>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__redes--texto">
+            <h4><strong class="fw-bold">Dirección:</strong> Av. Corrientes 838 CABA</h4>
+            <h4><strong class="fw-bold">Teléfono:</strong> 0800-0400-1111</h4>
+            <h4><strong class="fw-bold">Horarios de atención:</strong> de 9:00hs a 18:00hs</h4>
+        </div>
+        <div>
+            <a href="http://facebook.com" target="_blank">
+                <img src="../assets/img/facebook_icono.png" height="60px" alt="imagen de facebook"
+                    class="transitionLogo"></a>
+            <a href="http://twitter.com" target="_blank">
+                <img src="../assets/img/twitter_icono.png" height="60px" alt="imagen de twitter"
+                    class="transitionLogo"></a>
+            <a href="http://instagram.com" target="_blank">
+                <img src="../assets/img/instagram_icono.png" height="60px" alt="imagen de instagram"
+                    class="transitionLogo"></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
